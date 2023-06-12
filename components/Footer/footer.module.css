@@ -1,0 +1,9 @@
+.general p {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}

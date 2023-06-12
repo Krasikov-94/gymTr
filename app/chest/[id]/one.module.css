@@ -1,0 +1,16 @@
+.general {
+  display: grid;
+  justify-items: center;
+  padding: 40px;
+}
+.general a {
+  position: absolute;
+  left: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: tomato;
+}
+.general p {
+  padding: 20px;
+  padding-top: 100px;
+}

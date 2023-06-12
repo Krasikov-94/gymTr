@@ -1,0 +1,39 @@
+.header {
+  height: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(34, 34, 34);
+  align-items: center;
+  z-index: 200000;
+}
+.headerDay {
+  height: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 212, 212);
+  align-items: center;
+  z-index: 200000;
+}
+.header a {
+  font-size: 35px;
+}
+.but1 {
+  font-size: 30px;
+  margin-right: 50px;
+  background: transparent;
+  color: white;
+}
+.but {
+  width: 30px;
+}
+.png {
+  filter: invert(100%);
+}
+.pngDay {
+  filter: invert(100%);
+}
+.random {
+  padding-left: 20px;
+}

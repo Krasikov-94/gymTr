@@ -1,0 +1,45 @@
+.general {
+  display: grid;
+  justify-items: center;
+  font-size: 25px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  animation: 2s show ease-in-out;
+}
+.general h1 {
+  text-decoration: underline;
+}
+.general p {
+  padding-top: 30px;
+}
+.generalDay {
+  display: grid;
+  justify-items: center;
+  font-size: 25px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: white;
+  animation: 2s show ease-in-out;
+  color: black;
+  margin-top: -10px;
+}
+.generalDay h1 {
+  text-decoration: underline;
+}
+.generalDay p {
+  padding-top: 30px;
+}
+.ul {
+  list-style: inside;
+}
+.ul li {
+  margin: 10px;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
